@@ -1,0 +1,290 @@
+20:35:27.108 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+20:35:27.290 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+20:35:27.293 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 1044381696 bytes (maybe)
+20:35:27.294 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\Julius\AppData\Local\Temp (java.io.tmpdir)
+20:35:27.295 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+20:35:27.300 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+20:35:27.302 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+20:35:27.308 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+20:35:27.308 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+20:35:27.349 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+20:35:27.448 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+20:35:27.449 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+20:35:27.530 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1] 
+20:35:27.531 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+20:35:27.675 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+20:35:27.737 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+20:35:27.738 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+20:35:27.790 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@22752544
+20:35:27.796 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4784efd9
+20:35:27.809 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3fba233d
+20:35:27.814 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@427ae189
+20:35:27.819 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@16a9eb2e
+20:35:27.823 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@76332405
+20:35:27.828 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@187e5235
+20:35:27.832 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@d1d8e1a
+20:35:27.947 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+20:35:27.947 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+20:35:27.947 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+20:35:27.947 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+20:35:27.948 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+20:35:27.948 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+20:35:27.948 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+20:35:27.948 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+20:35:27.949 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+20:35:27.949 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+20:35:27.949 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+20:35:27.949 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+20:35:27.986 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+20:35:27.986 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+20:35:27.987 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+20:35:32.038 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 14184 (auto-detected)
+20:35:32.046 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: true
+20:35:32.046 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+20:35:32.173 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+20:35:32.176 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+20:35:32.302 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 28:e3:47:ff:fe:c6:9f:08 (auto-detected)
+20:35:32.478 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+20:35:32.479 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+20:35:32.479 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1fa031be
+20:35:32.568 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+20:35:32.568 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+20:35:32.569 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+20:35:32.569 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+20:35:32.569 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+20:35:46.852 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x9cce5c797534a7a5
+20:35:55.619 [main] INFO  stepDefinitions.steps - Register Account page displayed 
+20:35:56.119 [main] INFO  stepDefinitions.steps - Provided First Name 
+20:35:57.543 [main] INFO  stepDefinitions.steps - Provided Last Name 
+20:35:58.100 [main] INFO  stepDefinitions.steps - Provided Email 
+20:35:58.371 [main] INFO  stepDefinitions.steps - Provided Telephone 
+20:35:58.599 [main] INFO  stepDefinitions.steps - Provided Password 
+20:35:58.816 [main] INFO  stepDefinitions.steps - Provided Confrmed Password 
+20:36:01.009 [main] INFO  stepDefinitions.steps - Clicked on Continue 
+20:36:01.655 [main] INFO  stepDefinitions.steps - Account Registration Success 
+20:36:14.431 [main] INFO  stepDefinitions.steps - clicked on login link
+20:36:14.729 [main] INFO  stepDefinitions.steps - Provided Email 
+20:36:14.912 [main] INFO  stepDefinitions.steps - Provided Password 
+20:36:17.245 [main] INFO  stepDefinitions.steps - Clicked on Login button
+20:36:17.657 [main] INFO  stepDefinitions.steps - Login Success 
+20:36:18.666 [AsyncHttpClient-1-3] DEBUG io.netty.buffer.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3
+20:36:18.666 [AsyncHttpClient-1-4] DEBUG io.netty.buffer.PoolThreadCache - Freed 3 thread-local buffer(s) from thread: AsyncHttpClient-1-4
+20:47:05.966 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+20:47:05.995 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+20:47:05.996 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+20:47:06.008 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@719bb3b4
+20:47:06.068 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+20:47:06.073 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+20:47:06.074 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 11
+20:47:06.077 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+20:47:06.079 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+20:47:06.080 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+20:47:06.082 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:238) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:232) [netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293) [netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92) [netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109) [netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218) [netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197) [netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111) [async-http-client-2.12.2.jar:?]
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90) [async-http-client-2.12.2.jar:?]
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32) [async-http-client-2.12.2.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:98) [selenium-remote-driver-4.0.0-beta-3.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:51) [selenium-remote-driver-4.0.0-beta-3.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:147) [selenium-remote-driver-4.0.0-beta-3.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:107) [selenium-remote-driver-4.0.0-beta-3.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:94) [selenium-remote-driver-4.0.0-beta-3.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:85) [selenium-remote-driver-4.0.0-beta-3.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:68) [selenium-remote-driver-4.0.0-beta-3.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:78) [selenium-chromium-driver-4.0.0-beta-3.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:99) [selenium-chrome-driver-4.0.0-beta-3.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:86) [selenium-chrome-driver-4.0.0-beta-3.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:41) [selenium-chrome-driver-4.0.0-beta-3.jar:?]
+	at stepDefinitions.steps.user_launch_browser(steps.java:65) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) [cucumber-java-6.10.4.jar:6.10.4]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) [cucumber-java-6.10.4.jar:6.10.4]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) [cucumber-java-6.10.4.jar:6.10.4]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) [cucumber-java-6.10.4.jar:6.10.4]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) [cucumber-core-6.10.4.jar:6.10.4]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) [cucumber-core-6.10.4.jar:6.10.4]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) [cucumber-core-6.10.4.jar:6.10.4]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92) [cucumber-core-6.10.4.jar:6.10.4]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64) [cucumber-core-6.10.4.jar:6.10.4]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) [cucumber-core-6.10.4.jar:6.10.4]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104) [cucumber-core-6.10.4.jar:6.10.4]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73) [cucumber-core-6.10.4.jar:6.10.4]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151) [cucumber-junit-6.10.4.jar:6.10.4]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135) [cucumber-junit-6.10.4.jar:6.10.4]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27) [cucumber-junit-6.10.4.jar:6.10.4]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:200) [cucumber-junit-6.10.4.jar:6.10.4]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90) [cucumber-junit-6.10.4.jar:6.10.4]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235) [cucumber-junit-6.10.4.jar:6.10.4]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+20:47:06.105 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+20:47:06.109 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5d0a1059
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:361) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:591) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:558) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:352) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:343) [netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293) [netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92) [netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109) [netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218) [netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197) [netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111) [async-http-client-2.12.2.jar:?]
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90) [async-http-client-2.12.2.jar:?]
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32) [async-http-client-2.12.2.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:98) [selenium-remote-driver-4.0.0-beta-3.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:51) [selenium-remote-driver-4.0.0-beta-3.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:147) [selenium-remote-driver-4.0.0-beta-3.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:107) [selenium-remote-driver-4.0.0-beta-3.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:94) [selenium-remote-driver-4.0.0-beta-3.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:85) [selenium-remote-driver-4.0.0-beta-3.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:68) [selenium-remote-driver-4.0.0-beta-3.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:78) [selenium-chromium-driver-4.0.0-beta-3.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:99) [selenium-chrome-driver-4.0.0-beta-3.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:86) [selenium-chrome-driver-4.0.0-beta-3.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:41) [selenium-chrome-driver-4.0.0-beta-3.jar:?]
+	at stepDefinitions.steps.user_launch_browser(steps.java:65) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) [cucumber-java-6.10.4.jar:6.10.4]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) [cucumber-java-6.10.4.jar:6.10.4]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) [cucumber-java-6.10.4.jar:6.10.4]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) [cucumber-java-6.10.4.jar:6.10.4]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) [cucumber-core-6.10.4.jar:6.10.4]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) [cucumber-core-6.10.4.jar:6.10.4]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) [cucumber-core-6.10.4.jar:6.10.4]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92) [cucumber-core-6.10.4.jar:6.10.4]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64) [cucumber-core-6.10.4.jar:6.10.4]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) [cucumber-core-6.10.4.jar:6.10.4]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104) [cucumber-core-6.10.4.jar:6.10.4]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73) [cucumber-core-6.10.4.jar:6.10.4]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151) [cucumber-junit-6.10.4.jar:6.10.4]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135) [cucumber-junit-6.10.4.jar:6.10.4]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27) [cucumber-junit-6.10.4.jar:6.10.4]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:200) [cucumber-junit-6.10.4.jar:6.10.4]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90) [cucumber-junit-6.10.4.jar:6.10.4]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235) [cucumber-junit-6.10.4.jar:6.10.4]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+20:47:06.113 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+20:47:06.113 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+20:47:06.114 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 1044381696 bytes (maybe)
+20:47:06.115 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\Julius\AppData\Local\Temp (java.io.tmpdir)
+20:47:06.116 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+20:47:06.119 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+20:47:06.120 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+20:47:06.124 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+20:47:06.125 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+20:47:06.156 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+20:47:06.222 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+20:47:06.222 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+20:47:06.310 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1] 
+20:47:06.311 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+20:47:06.406 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+20:47:06.440 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+20:47:06.440 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+20:47:06.473 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@44bd4b0a
+20:47:06.477 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@67c5ac52
+20:47:06.481 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@36417a54
+20:47:06.484 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2b8bb184
+20:47:06.488 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@472a11ae
+20:47:06.491 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@dc79225
+20:47:06.495 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@30e9ca13
+20:47:06.498 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@46185a1b
+20:47:06.571 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+20:47:06.571 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+20:47:06.571 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+20:47:06.571 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+20:47:06.572 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+20:47:06.572 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+20:47:06.572 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+20:47:06.572 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+20:47:06.572 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+20:47:06.573 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+20:47:06.573 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+20:47:06.573 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+20:47:06.626 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+20:47:06.627 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+20:47:06.627 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+20:47:08.195 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 15784 (auto-detected)
+20:47:08.202 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: true
+20:47:08.202 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+20:47:08.337 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+20:47:08.340 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+20:47:08.461 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 28:e3:47:ff:fe:c6:9f:08 (auto-detected)
+20:47:08.634 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+20:47:08.636 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+20:47:08.636 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6b91c389
+20:47:08.725 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+20:47:08.725 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+20:47:08.725 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+20:47:08.725 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+20:47:08.726 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+20:47:11.687 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x9123a5c618306b58
+20:47:22.085 [main] INFO  stepDefinitions.steps - Register Account page displayed 
+20:47:22.427 [main] INFO  stepDefinitions.steps - Provided First Name 
+20:47:22.651 [main] INFO  stepDefinitions.steps - Provided Last Name 
+20:47:22.936 [main] INFO  stepDefinitions.steps - Provided Email 
+20:47:23.144 [main] INFO  stepDefinitions.steps - Provided Telephone 
+20:47:23.377 [main] INFO  stepDefinitions.steps - Provided Password 
+20:47:23.571 [main] INFO  stepDefinitions.steps - Provided Confrmed Password 
+20:47:25.678 [main] INFO  stepDefinitions.steps - Clicked on Continue 
+20:47:26.068 [main] INFO  stepDefinitions.steps - Account Registration Success 
+20:47:37.736 [main] INFO  stepDefinitions.steps - clicked on login link
+20:47:38.100 [main] INFO  stepDefinitions.steps - Provided Email 
+20:47:38.308 [main] INFO  stepDefinitions.steps - Provided Password 
+20:47:40.474 [main] INFO  stepDefinitions.steps - Clicked on Login button
+20:47:40.976 [main] INFO  stepDefinitions.steps - Login Success 
+20:47:41.304 [AsyncHttpClient-1-3] DEBUG io.netty.buffer.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3
